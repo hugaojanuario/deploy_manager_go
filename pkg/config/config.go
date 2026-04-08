@@ -8,3 +8,7 @@ type Config struct {
 	DB_NAME     string
 	DB_SSLMODE  string
 }
+
+func NewConfig() *Config {
+
+}
